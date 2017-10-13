@@ -1,0 +1,200 @@
+html {height: 100%; overflow: hidden;}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	perspective: 1px;
+    -webkit-background-size: cover; /*Css safari e chrome*/
+	-moz-background-size: cover; /*Css firefox*/
+	-ms-background-size: cover; /*Css IE não use mer#^@%#*/
+	-o-background-size: cover; /*Css Opera*/
+}
+h1 {
+	text-align: center;
+	font-size: 400%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+}
+h2 {
+	text-align: center;
+	font-size: 350%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+}
+
+#section1 {
+    background: url(../img/img/Sozinha/2.jpg) no-repeat center;
+	background-size: cover;
+}
+#section2 {
+    background: #5F9EA0;
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;
+}
+#section3 {
+    background: url(../img/img/Sozinha/1.jpg) no-repeat center;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;
+}
+#section4 {
+    background: url(../img/img/20.jpg) no-repeat center;
+	background-size: cover;	
+}
+#section5 {
+    background: url(../img/img/Familia/1.jpg) no-repeat center;
+	transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;	
+}
+#section6 {
+    background: url(../img/img/Familia/2.png) no-repeat center ;
+	background-size: cover;
+}
+#section7 {
+    background: url(../img/img/Familia/3.png) no-repeat center;
+	background-size: cover;
+}
+#section8 {
+    background: url(../img/img/83.jpg) no-repeat center;
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;
+}
+#section9 {
+    background: url(../img/img/amigos/3.jpg) no-repeat center;
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;
+}
+#section10 {
+    background: url(../img/img/amigos/6.png) no-repeat center;
+	background-size: cover;
+}
+#section12 {
+    background: url(../img/img/Cleber/1.jpg) no-repeat center;
+	background-size: cover;
+
+}#section13 {
+	background: url(../img/img/12.jpg) no-repeat center;	
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;    
+}
+#section14 {
+    background: url(../img/img/Cleber/3.jpg) no-repeat center;
+	background-size: cover;
+}
+<!--#section14 {
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover; -->
+}
+#section15 {
+	background: url(../img/img/10.jpg) no-repeat center;
+	background-size: cover;
+}
+#section16 {
+    background: url(../img/img/Sapeca/2.jpg) no-repeat center;
+    transform: translateZ(-1px) scale(2);
+	z-index: -1;
+	background-size: cover;
+}
+#sectionFinal {
+    background-color: #FF0000;
+	background-size: cover;
+}
+.slide {
+    position: relative;
+    padding: 25% 10%;
+    min-height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+p {
+    text-align: center;
+    margin: -20%;
+	font-size: 400%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+   
+}
+#section4 p {
+	text-align: center;
+	padding-top: 60%;
+	font-size: 350%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#section8 p {
+	text-align: center;
+	margin:-20%;
+    padding-top: -120%;
+	font-size: 350%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#section13 p {
+	text-align: center;
+    margin: -20%;
+	font-size: 375%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#section15 p {
+	text-align: center;
+    margin: -20%;
+    padding-top:14%;
+	font-size: 300%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	font-family: Impact, Charcoal, sans-serif;
+}
+#sectionFinal p {
+    text-align: center;
+	font-size: 400%;
+    padding-top:24%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+}
+#sectionFinal h3 {
+    text-align: center;
+	font-size: 400%;
+    padding-top:45%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	
+}
+#sectionFinal h4 {
+    text-align: center;
+	font-size: 300%;
+    padding-top:2%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+	
+}
+#sectionFinal h6 {
+    text-align: center;
+	font-size: 200%;
+    padding-top:4%;
+	margin-bottom:-20%;
+	color: #fff;
+	text-shadow: 0 2px 2px #000;
+	background: center fixed;
+}
+
